@@ -1,0 +1,91 @@
+@import "includes/settings";
+
+div.slideshow {
+    height:536px;
+    width:715px;
+    margin:20px auto;
+    position:relative;
+
+    ul > li {
+        margin:0px !important; //puto exelearning
+    }
+
+    img {
+        visibility:hidden;
+        position:absolute;
+        top:0px;
+        width:715px;
+        height:536px;
+        opacity:0;
+        transition:opacity 0.3s ease-out;
+    }
+
+    
+    &:hover .ss-next, &:hover .ss-prev {
+        visibility:visible;
+    }
+
+    .ss-next, .ss-prev {
+        position:absolute;
+        visibility:hidden;
+        top:200px;
+        width:100px;
+        height:100px;
+
+        &:active {
+        }
+
+        &:hover {
+        }
+
+    }
+
+    .ss-prev {
+        background: url('../images/l.png') no-repeat center;
+        background-size:100%;
+        left:0px;
+
+        &:hover {
+            background: url('../images/l.png') no-repeat center;
+            cursor:pointer;
+            filter: hue-rotate(45deg);
+        }
+    }
+    
+    .ss-next {
+        background: url('../images/r.png') no-repeat center;
+        background-size:50px;
+        right:0px;
+
+        &:hover {
+            cursor:pointer;
+        }
+    }
+
+    .ss-progress {
+        height:8px;
+        width:100%;
+        background-color:#d1d1d1;
+        position:absolute;
+        top:100%;
+        left:0px;
+
+        .ss-progress-indicator {
+            width:0%;
+            height:100%;
+            background-color:$secondary;
+            margin:0px;
+            transition:width 0.5s ease-in;
+        }
+    }
+
+    ul, li {
+        list-style:none;
+        padding:0px;
+        margin:0px;
+    }
+
+    ul {
+    }
+
+}

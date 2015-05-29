@@ -1,0 +1,33 @@
+@import "includes/settings";
+/* 
+ *
+ * EJEMPLO
+ *
+ *
+ */
+.ejemplo {
+    width:100%;
+    border-radius:5px;
+    border: 1px solid #DDD;
+}
+
+.ejemplo:before {
+    content:"Ejemplo";
+    padding:3px;
+    padding-left:29px;
+    height:28px;
+    display:block;
+    color:white;
+    text-transform:uppercase;
+    background: url("../images/lightbulb.png") 2px 2px no-repeat $primary;
+    background-size:20px 20px;
+
+}
+
+.ejemplo > p {
+    padding:15px;
+    font-style:italic;
+    font-size:0.9em;
+
+}
+

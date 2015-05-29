@@ -1,0 +1,31 @@
+@import "includes/settings";
+
+.reescritura {
+
+    .right {
+        background-color:green;
+        color:white;
+    }
+
+    .selected {
+        background-color:$primary;
+        color:red;
+    }
+
+    .selected{
+        background-color:red;
+        color:white;
+    }
+
+    span {
+        transition:color 0.5s ease-in;
+        cursor:pointer;
+    }
+
+    .feedback {
+        background-color:red;
+        margin:solid 1px red;
+    }
+
+}
+

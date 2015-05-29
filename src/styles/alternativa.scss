@@ -1,0 +1,25 @@
+@import "includes/settings";
+.alternativa > span {
+    border-radius:4px;
+    padding:3px;
+    color:white;
+    margin-right: 1px;
+    cursor:pointer;
+}
+.al-selected {
+    background-color:$primary;
+    border:1px solid $primary2;
+}
+
+.alternativa > span:not(.al-selected) {
+    background-color:$primary2;
+}
+
+.al-right {
+    font-size:0.7em;
+    color:green;
+}
+.al-wrong {
+    color:red;
+    font-size:0.7em;
+}

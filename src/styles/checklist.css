@@ -1,0 +1,51 @@
+.checklist > ul {
+    background-color:#f1f1f1;
+    margin: 10px 10px;
+    box-shadow: 3px 3px 3px #ddd;
+    padding:10px;
+    padding-left:25px;
+    list-style:none;
+    position:relative;
+}
+
+.checklist > ul > li {
+    padding-left:22px;
+    line-height:1.5em;
+}
+
+.checkmark {
+    display:inline-block;
+    position:absolute;
+    width: 22px;
+    height:22px;
+    background: green;
+    border-radius:50%;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    margin-left:-26px;
+}
+
+
+.checkmark:before{
+    content:"";
+    position: absolute;
+    width:3px;
+    height:9px;
+    background-color:#fff;
+    left:11px;
+    top:6px;
+    border:white;
+    margin:0px;
+}
+
+.checkmark:after{
+    margin:0px;
+    content:"";
+    position: absolute;
+    width:4px;
+    height:3px;
+    background-color:#fff;
+    left:8px;
+    top:12px;
+}

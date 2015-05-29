@@ -1,0 +1,44 @@
+
+.warning {
+    font-size:18px;
+    padding:10px 10px;
+    border-radius:5px;
+    color:white;
+    background-color:#7fc6c1;
+    margin:20px 10px;
+}
+
+.warning p {
+    position:relative;
+    display:block;
+    font-size:0.9em;
+}
+
+.warning p:first-child {
+
+}
+
+.warning p b {
+    color:#1c6762;
+}
+
+.warning:before{
+    padding-left:55px;
+    padding-top:15px;
+    text-transform:uppercase;
+    content:"¡Atención!";
+    font-size:22px;
+    font-weight:bold;
+    display:block;
+    margin-bottom:22px;
+    background-color:#0fa89d;
+    height:50px;
+    background: url("../images/warning.png") no-repeat 8px 8px white;
+    color:grey;
+    background-size:40px 40px;
+    border-radius:5px;
+}
+
+
+
+

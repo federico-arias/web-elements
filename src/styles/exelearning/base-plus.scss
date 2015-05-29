@@ -1,0 +1,57 @@
+@import "../includes/settings";
+
+*::selection {
+    color:$textonprimary;
+    background-color: $primary;
+}
+.footnotes > p {
+    font-size:small;
+}
+h1#nodeTitle {
+    color:$primary;
+}
+
+#ta0_1 {
+    //http://stackoverflow.com/questions/7166716/unexplained-white-space-when-using-clearboth
+    overflow:hidden;
+}
+
+#ta0_1 b {
+    color: $secondary;
+}
+
+#id0 > .iDevice.emphasis0 {
+    margin-top:20px;
+}
+
+.FreeTextIdevice {
+    font-size:14px;
+}
+
+#ta0_1:after {
+    clear:both;
+    content:'.';
+    visibility:hidden;
+    display:block;
+}
+#siteNav > ul > li > a  {
+    text-transform:uppercase;
+}
+
+#siteNav > ul > :first-child > a  {
+    text-transform:inherit;
+}
+
+#ta0_1 {
+   text-align:justify;
+  }
+
+#tabs > ul {
+  overflow:hidden;
+  width:98.5%;
+}
+
+
+
+
+

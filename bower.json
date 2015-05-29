@@ -1,0 +1,21 @@
+{
+  "name": "HTML Components",
+  "version": "0.0.0",
+  "authors": [
+    "federico-arias <federicoariasr@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.2"
+  },
+  "devDependencies": {
+    "modular-scale": "~2.0.7"
+  }
+}

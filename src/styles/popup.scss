@@ -1,0 +1,46 @@
+@import "includes/settings";
+
+.popup {
+    position:relative;
+    width:60%;
+    padding:10px;
+    margin: 10px auto;
+    text-align:justify;
+    border:solid 1px #d1d1d1;
+}
+
+.pu-contenido:hover {
+    background-color:$primary;
+    color:white;
+    cursor:pointer;
+}
+
+.pu-tooltip {
+    position:absolute;
+    font-size:0.8em;
+    padding:9px;
+    top:0px;
+    left:101%;
+    width:33%;
+    height:auto;
+    text-transform:uppercase;
+    background-color:$primary2;
+    color:white;
+    text-align:center;
+}
+
+.popup .pu-tooltip:nth-child(4), .pu-contenido:hover:nth-child(3) {
+    background-color:adjust_hue($primary, 60);
+}
+
+.popup .pu-tooltip:nth-child(6), .pu-contenido:hover:nth-child(5) {
+    background-color:adjust_hue($primary, 130);
+}
+
+.popup .pu-tooltip:nth-child(8), .pu-contenido:hover:nth-child(7) {
+    background-color:adjust_hue($primary, 200);
+}
+
+.popup .pu-tooltip:nth-child(10), .pu-contenido:hover:nth-child(9) {
+    background-color:adjust_hue($primary, 250);
+}

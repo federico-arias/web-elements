@@ -1,0 +1,31 @@
+.col-md-4   {
+    text-align:left;
+    font-size:16px;
+    display:block-inline;
+    line-height:2em;
+}
+
+#ejercicio {
+    font-size:16px;
+}
+.instructions {
+    background-color:#f2f2f2;
+    padding: 2px 5px;
+    margin:15px 0px 15px 0px;
+}
+
+.instructions h3 {
+    margin-top:10px;
+}
+
+#feedback {
+    margin-top:7px;
+    display:none;
+}
+/*
+@media screen and (max-width:700px) {
+    #ejercicio {
+        font-size:33px;
+    }
+}
+*/

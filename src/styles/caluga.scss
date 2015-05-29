@@ -1,0 +1,70 @@
+@import "includes/settings";
+
+
+.caluga.js > * {
+  overflow: hidden;
+}
+
+
+.caluga.js > *:not(.expanded) > *:not(h1) {
+  max-height: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.caluga.js > .expanded > *:not(h1) {
+  max-height: 10em;
+  opacity: 1;
+  visibility: visible;
+}
+
+.caluga.js > * > h1 {
+  cursor: pointer;
+  visibility: visible;
+}
+
+.caluga.js > * > *:not(h1) {
+  transition: max-height 1s,
+    visibility 1s,
+    margin 1s,
+    opacity 1s;
+}
+
+.caluga > div {
+    display:inline-block;
+    background-color:$primary;
+    min-height:100px;
+    text-align:center;
+    color:white;
+    vertical-align:top;
+    margin-top:5px;
+    width:100%;
+}
+
+.caluga > .expanded > ul {
+    background-color:#47AD4C;
+}
+
+.caluga ul {
+    list-style-type: none;
+    margin-before: 0em;
+    margin-after: 0em;
+    padding-left:0px;
+}
+
+.caluga li {
+    display:block;
+}
+
+.caluga .caluga-footer h4{
+    background-color:$primary2;
+}
+
+@media screen and (min-width: 700px){
+    .caluga > div {
+        width:33%;
+    }
+}
+

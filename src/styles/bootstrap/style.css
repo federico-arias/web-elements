@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import "../includes/settings";
+/*
+ *
+Verde 1: #47AD4C 
+Verde 2: #97CB9D (el más claro).
+Gris 1: #3A3A3A
+Gris 2: #D1D1D1 (el más claro).
+*
+*
+*/
+/*
+ *
+ *
+ *
+ *
+ *
+ */
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    text-transform:uppercase;
+}
+
+#cabecera {
+    background-image:url(header.jpg);
+    background-size:cover;
+    background-position:center center;
+    height:100px;
+    color:white;
+}
+
+.container-fluid p,  .container-fluid th, .container-fluid td {
+    font-family:"source sans pro", sans-serif;
+    line-height:1.5em;
+    text-align:justify;
+}
+
+.navbar-right span {
+    font-size:2em;
+}
+
+.half {
+    float:left;
+    width:50%;
+    margin-left:0px;
+    margin-right:0px;
+}
+.half p {
+    -webkit-margin-before:0px;
+    -webkit-margin-after:0px;
+}
+
+.half .panel-title {
+    height:66px;
+}
+
+.half .panel-body {
+    height:289px;
+}
+
+a.nav-botn {
+border-bottom-color: rgb(221, 221, 221);
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(221, 221, 221);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(221, 221, 221);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgb(221, 221, 221);
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+border-top-style: solid;
+border-top-width: 1px;
+box-sizing: border-box;
+cursor: pointer;
+display: block;
+float: right;
+font-size: 14px;
+height: 32px;
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+padding-bottom: 5px;
+padding-left: 14px;
+padding-right: 14px;
+padding-top: 5px;
+text-align: center;
+text-decoration: none;
+width: 108px;
+}
+
+body {
+    font-family:"source sans pro", sans-serif;
+    padding-bottom:45px;
+}
+
+.navbar {
+    min-height:42px;
+}
+
+
+td {
+    padding: 15px;
+}
+
+th {
+    text-align:center;
+}
+
+
+.text p {
+    font-size:18px;
+}
+
+.text b {
+    font-weight:bold;
+    color:$secondary;
+}
+
+.text h2 {
+    font-size:24px;
+}
+
+.text h4 {
+    font-size: 22px;
+    text-decoration:underline;
+    color:$secondary;
+}
+
+
+.text li {
+    list-style-type: square;
+}
+
+.nav {
+    font-size:1.1rem;
+}
+
+.navFooter {
+    margin: 20px auto;
+    width: 325px;
+}
+
+.nav li.dropdown > a {
+    font-size:14px;
+}

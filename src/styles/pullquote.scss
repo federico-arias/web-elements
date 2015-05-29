@@ -1,0 +1,32 @@
+@import "includes/settings";
+
+.pullquote:before, .pullquote::after {
+content: "";
+display: block;
+margin: 1em auto;
+height: 1px;
+width: 60%;
+background-image: linear-gradient(to right, rgba(150,150,150,0), $primary, rgba(150,150,150,0));
+}
+
+.pullquote {
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    width: 19em;
+    float: right;
+    margin: 1em 0 1em 2em;
+    line-height:1.9em;
+    right: -5em;
+    color: #111;
+    border-left: none;
+    font-size:1.1em;
+    text-align:center;
+}
+
+@media screen and (max-width:430px) {
+    .pullquote {
+        float:none;
+        margin: 1em auto 1em auto;
+    }
+}

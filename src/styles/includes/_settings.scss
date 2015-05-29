@@ -1,0 +1,25 @@
+// blue $primary: #0061A6;
+$project: "cl";
+
+@if $project == "lea"
+{
+    $primary: #47AD4C; //LEA
+    $primary2:#97CB9D; //LEA
+    $secondary:#12877b; //LEA
+    $textonprimary:white;
+}
+@else if $project == "trata" {
+    $primary: #35b3ff; //trata de personas
+    $primary2:#ff6801; //trata
+    $secondary:#ff6801; //trata
+    $textonprimary:white;
+    }
+
+@else if $project == "cl" {
+    $primary: #0f69b4; //gobierno
+    $primary2:#eb3c46; //
+    $secondary:#eb3c46; //
+    $darker: rgb(77, 77, 77); 
+    $dark: rgb(120, 120, 120);
+    $textonprimary:white;
+}

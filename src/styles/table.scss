@@ -1,0 +1,40 @@
+@import "includes/settings";
+
+.td p span {
+    font-size:0.9em;
+}
+
+table.table tr:first-child {
+    background-color:amatist;
+    text-align:center;
+}
+
+table.table tr:first-child>td>p {
+    text-align:center;
+}
+
+table.table p {
+    font-size:0.8em;
+}
+
+.col > table {
+    border:1px solid #d1d1d1;
+    border-radius:3px;
+    border-collapse: collapse;
+    tr {
+        margin-bottom:1px;
+    }
+
+    td {
+        border:1px solid #d1d1d1;
+    }
+
+    tbody tr td:first-child {
+        background-color:$primary;
+        color:$textonprimary;
+        text-align:left;
+    }
+    tr {
+        text-align:center;
+    }
+}
